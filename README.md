@@ -1,27 +1,49 @@
-# CmpDeepDive
+**Ticket Management Demo App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0-next.2.
+A modern and interactive ticket management dashboard built with Angular. This app showcases real-time server status, IT ticket submission and tracking, and a visual dashboard for recent traffic data.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**Features
+Live Server Status Dashboard
 
-## Code scaffolding
+Displays current server status (online/offline) with updates every 4 seconds.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Real-time updates handled via setInterval for automated status changes.
 
-## Build
+IT Ticket Management
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Users can submit support tickets using intuitive input fields (title and request).
 
-## Running unit tests
+All created tickets are listed in a dashboard.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Tickets can be marked as complete; completed tickets update their appearance/color instantly.
 
-## Running end-to-end tests
+Traffic Monitoring Dashboard
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Visual bar chart displays traffic for the last 7 days.
 
-## Further help
+Bar heights represent relative traffic volume per day in a modern, eye-catching style.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+**Technologies Used
+Angular (main framework)
+
+TypeScript, RxJS
+
+Responsive, component-based UI
+
+CSS (custom & framework for styling)
+
+---
+
+**How It Works
+Server Status:
+A card at the top-left displays live server status, changing state (and styles) every few seconds.
+
+Traffic Bar Chart:
+The center card displays an animated bar chart of traffic for the last 7 days.
+
+Support Tickets:
+Users can create new tickets. Each ticket can be marked as completed, dynamically updating its card color and status.
