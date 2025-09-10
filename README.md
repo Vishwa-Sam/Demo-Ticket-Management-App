@@ -1,10 +1,10 @@
-**Ticket Management Demo App
+***Ticket Management Demo App
 
 A modern and interactive ticket management dashboard built with Angular. This app showcases real-time server status, IT ticket submission and tracking, and a visual dashboard for recent traffic data.
 
 ---
 
-**Features
+***Features
 Live Server Status Dashboard
 
 Displays current server status (online/offline) with updates every 4 seconds.
@@ -27,7 +27,7 @@ Bar heights represent relative traffic volume per day in a modern, eye-catching 
 
 ---
 
-**Technologies Used
+***Technologies Used
 Angular (main framework)
 
 TypeScript, RxJS
@@ -38,7 +38,7 @@ CSS (custom & framework for styling)
 
 ---
 
-**How It Works
+***How It Works
 Server Status:
 A card at the top-left displays live server status, changing state (and styles) every few seconds.
 
